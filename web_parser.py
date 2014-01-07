@@ -61,7 +61,7 @@ def main():
                 item = {}
 
 
-    with codecs.open('/Users/tengyouwei/Downloads/fuck/result.json', 'w', 'utf-8') as f:
+    with codecs.open('/Users/idreamers/Downloads/fuck/result.json', 'w', 'utf-8') as f:
         f.write(json.dumps(items, ensure_ascii=False, indent = 4))
 
 if __name__ == '__main__':
